@@ -51,4 +51,17 @@ img {
 .download-button:hover {
   background-color: #45a049;
 }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+.animate-in {
+  animation: fadeInUp 1s ease-out both;
+}
