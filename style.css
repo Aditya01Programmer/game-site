@@ -39,4 +39,16 @@ img {
   margin: 20px auto;
   display: block;
 }
+.download-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px; /* 👈 this gives rounded corners */
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.download-button:hover {
+  background-color: #45a049;
+}
 
