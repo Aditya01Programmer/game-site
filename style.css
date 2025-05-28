@@ -65,3 +65,7 @@ img {
 .animate-in {
   animation: fadeInUp 1s ease-out both;
 }
+.animate-in {
+  animation: fadeInUp 1s ease-out 3s forwards;
+  opacity: 0;
+}
