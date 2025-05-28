@@ -39,3 +39,61 @@ img {
   margin: 20px auto;
   display: block;
 }
+/* Base Style */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #2c3e50, #1a1a2e);
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #f9f871;
+  text-shadow: 1px 1px 4px #000;
+}
+
+/* Cards */
+.card {
+  background: #ffffff10;
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffffff22;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+/* Buttons */
+a.download-button {
+  display: inline-block;
+  background: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+a.download-button:hover {
+  background: #45a049;
+}
+
+/* Footer */
+footer {
+  background: #1a1a2e;
+  color: #ddd;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
